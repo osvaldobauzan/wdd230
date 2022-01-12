@@ -8,6 +8,7 @@ header {
   /*display: flex;
   flex-direction: row;*/
   padding: 1em;
+  font-family: 'Poppins', sans-serif;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 200px auto;
@@ -24,6 +25,7 @@ footer {
   text-align: center;
   color: ghostwhite;
   border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 img {
   max-width: 200px;
@@ -40,7 +42,6 @@ body {
     align-items: center;*/
   max-width: 760px;
   margin: 1.25rem auto;
-  font-family: Arial, Helvetica, sans-serif;
 }
 main ul li {
   text-align: left;
@@ -49,4 +50,7 @@ h1.name {
   vertical-align: center;
   text-align: center;
   margin: auto 0;
+}
+main{
+  font-family: 'Luxurious Roman', cursive;
 }
