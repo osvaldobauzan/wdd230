@@ -9,7 +9,7 @@ header {
   flex-direction: row;*/
   padding: 1em;
   font-family: 'Poppins', sans-serif;
-  border-radius: 10px;
+  border-radius: 0px;
   display: grid;
   grid-template-columns: 200px auto;
 }
@@ -18,17 +18,18 @@ header h1 {
   margin: 0.5em;
   padding-top: auto;
   padding-bottom: auto;
+  font-size: 1.5 rem;
 }
 footer {
   background-color: darkolivegreen;
   padding: 0.5em;
   text-align: center;
   color: ghostwhite;
-  border-radius: 10px;
+  border-radius: 0px;
   font-family: 'Poppins', sans-serif;
 }
 img {
-  max-width: 200px;
+  max-width: 150px;
   align-items: center;
   text-align: center;
   align-content: center;
@@ -50,6 +51,7 @@ h1.name {
   vertical-align: center;
   text-align: center;
   margin: auto 0;
+  font-size: 1.5 rem;
 }
 main{
   font-family: 'Luxurious Roman', cursive;
