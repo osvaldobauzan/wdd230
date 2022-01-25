@@ -1,0 +1,12 @@
+@media only screen and (min-width: 60em) {
+    header{
+        background-color: darkolivegreen;
+        border-radius: 15px;
+      }
+      nav a {
+		font-size: 1.1rem;
+	}
+    img { 
+        min-width: 400px;
+      }
+  }
