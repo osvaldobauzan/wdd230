@@ -1,0 +1,86 @@
+@media only screen and (min-width: 60em) {
+  header {
+    background-color: darkolivegreen;
+    border-radius: 15px;
+  }
+  img.smalllogo {
+    max-width: 150px;
+    padding: 0;
+    margin: 0;
+  }
+  img.social {
+    max-width: 40px;
+  }
+  /*cambiar*/
+  .maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .maingrid section {
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    background-color: grey;
+  }
+  #event {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  #weather {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  #join {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  #hero {
+    grid-column: 2/4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  #news {
+    grid-row: 3/4;
+    grid-column: 2/4;
+  }
+  #spo {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  /* perrrrooo */
+  nav {
+    background-color: darkolivegreen;
+    margin: 0 auto;
+    max-width: 780px;
+    border-radius: 10px;
+    margin: auto 0;
+  }
+  nav a {
+    font-size: 1.1rem;
+  }
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+  }
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    /*background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;*/
+  }
+  .active {
+    color: #ffc800;
+  }
+}

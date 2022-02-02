@@ -15,28 +15,78 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <script defer src="../js/dates.js"></script>
+    <script defer src="js/lastmod.js"></script>
   </head>
   <body>
     <header>
-      <h1 class="name">Website Planning Document</h1>
-      <h2 class="name" id="lesson2name">Osvaldo Bauzan</h2>
+      <div class="too">
+        <img
+          class="smalllogo"
+          src="../lesson3/images/logo_small_icon_only_inverted.png"
+          alt="Lofo for Puebla Chamber of commerce"
+        />
+        <section class="headings">
+          <h1 class="name">Puebla</h1>
+          <h2 class="name">Chamber of commerce</h2>
+        </section>
+      </div>
+      <nav>
+        <button id="loco" >&#9776;</button>
+        <ul  id="loconav" class="navigation">
+          <li><a href="index.html" class= "active" id="active1" >Discover</a></li>
+          <li><a href="index.html">Directory</a></li>
+          <li><a href="index.html">Join</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logos2">
+        <a href="https://www.instagram.com/osvaldobauzan/?hl=es"> <img class="social" src="images/instagram.png" alt="instagram link" /></a>
+        <a href="https://www.facebook.com/OsvaldoBauzan"> <img
+          class="social"
+          src="images/Facebook+Icon+Black.png"
+          alt="facebook link"
+        /></a>
+      </div>
+      <div class="date" id="hoy">time</div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="target-audience.html">Target Audience</a></li>
-        <li><a href="color-scheme.html">Color Scheme</a></li>
-        <li><a href="typography.html">Typography</a></li>
-        <li><a href="index.html">More</a></li>
-      </ul>
-    </nav>
-    <main>
-      
+
+    <main class="maingrid">
+      <section id="event">Event</section>
+      <section id="weather">Weather</section>
+      <section id="join">Join</section>
+      <section id="hero">Hero with site name and call to action</section>
+      <section id="news">News Release</section>
+      <section id="spo">
+        <div>Spotlight 1</div>
+        <div>Spotlight 2</div>
+        <div>Spotlight 2</div>
+      </section>
     </main>
-    <footer>
-      <p>&copy; 2021 - Osvaldo Bauzan - Mexico <br /></p>
-      <p class="lastmod">jiji</p>
+    <footer class="footergrid">
+      <div class="footer1">
+        <img
+          src="../lesson3/images/logo_small_icon_only_inverted.png"
+          alt="Lofo for Puebla Chamber of commerce"
+          class="footerlogo"
+        />
+        <div class="endend">
+        <h1 class="name">Puebla</h1>
+        <h2 class="name">Chamber of commerce</h2>
+        <span>Teotlixco 113 B</span><br>
+        <span>Bello Horizonte, Puebla</span>
+        </div>
+      </div>
+      <div class="info">
+        <p>info@puebla.com</p>
+        <p>(+52) 7353593762</p>
+        <p>📍 Location Map</p>
+      </div>
+      <p class="lastlast">
+        <span>© 2022 Puebla Chamber of Commerce</span> | 
+        <span><strong>Osvaldo Bauzan</strong></span> | 
+        <span>WDD 230 Project</span> | 
+        <span id="lastModified">Last</span>
+      </p>
     </footer>
   </body>
 </html>
