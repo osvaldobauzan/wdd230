@@ -22,7 +22,6 @@
     max-width: 30px;
   }
 
-  
   /*maingrid*/
   .maingrid {
     display: grid;
@@ -55,10 +54,10 @@
     grid-row: 1 / 2;
     padding: 0;
   }
-  #spo div img{
+  #spo div img {
     max-width: 300px;
   }
-  
+
   #news {
     grid-row: 2/3;
     grid-column: 1 / 4;
@@ -77,21 +76,20 @@
     margin: 0;
   }
 
-  
   .navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-  
+    display: flex;
+  }
+  .navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
   nav button {
     display: none;
   }
@@ -121,5 +119,57 @@
 		var(--d, 0) 10px no-repeat;
 	transition: 0.5s;*/
   }
-  
+  #chamber-home {
+    margin-top: 2em;
+
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .directoryView.list-view-filter div {
+    display: block;
+  }
+
+  .directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  #chamber-description {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #043869;
+    opacity: 0.92;
+    font-size: 18px;
+    width: 400px;
+    height: 220px;
+    padding: 10px;
+  }
+
+  .button {
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+  }
+  .contact-group {
+    margin-top: -0.5em;
+  }
+  .directory {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }

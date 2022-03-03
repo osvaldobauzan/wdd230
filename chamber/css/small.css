@@ -318,3 +318,49 @@ nav ul{
 nav ul.open {
   display: block;
 }*/
+
+
+/*DIRECTORY*/
+
+.directory {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  background-image: linear-gradient(135deg, grey 60%, grey 80%);
+  border-left: 13px double darkolivegreen;
+  border-right: 13px double darkolivegreen;
+  background-color: #fafafa;
+  padding-top: -15px;
+  text-align: center;
+  color: #fafafa;
+
+  margin-right: 2.5em;
+}
+
+.div-companies {
+  background-color: #fafafa;
+  padding: 5px;
+  color: black;
+  font-weight: 500;
+}
+
+.div-companies p {
+  color: black;
+  font-style: normal;
+}
+
+.div-companies img {
+  width: 200px;
+  max-width: 100%;
+  height: 200px;
+}
+.list-button,
+.grid-button {
+  display: none;
+}
+
+img#instagram { 
+  max-width: 2rem;
+}

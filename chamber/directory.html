@@ -39,7 +39,7 @@
         <ul class="navigation">
           <li><a class="ham" href="#">Menu</a></li>
           <li><a href="#">Discover</a></li>
-          <li><a href="directory.html">Directory</a></li>
+          <li><a href="#">Directory</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -58,69 +58,61 @@
       <div class="date" id="hoy">time</div>
     </header>
 
-    <main class="maingrid">
-      <section id="event">
-        <h1>Invest</h1>
-        <p>
-          Next Saturday we'll have an event were you can learn how to start
-          investiging in our community
-        </p>
-        <a href="#">More info...</a>
-      </section>
-      <section id="weather">
-        <h1>Weather</h1>
-        <img src="images/partly_cloudy.png" alt="Descripción del clima" />
-        <h2>33°</h2>
-        <h2>Partly Cloudy</h2>
-        <p>
-          Wind Speed: 2.5 Km/h <br />
-          Wind Chill: N/A
-        </p>
-      </section>
-      <section id="join">
-        <button>Join Us</button>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
-          dignissimos minus adipisci maiores, tenetur nulla ipsum quisquam,
-          deleniti iusto aut labore quam porro ipsa possimus animi fuga sint,
-          quasi et?
-        </p>
-      </section>
-      <section id="hero">
-        <img src="images/puebla.jpg" alt="Ciudad de Puebla" />
-      </section>
-      <section id="news">
-        <h1>News Release</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-          aliquam modi qui ullam reiciendis incidunt laudantium fugiat cum,
-          maiores quos cupiditate minus culpa neque dolores totam recusandae
-          pariatur obcaecati illum!
-        </p>
-      </section>
-      <section id="spo">
-        <div>
-          <h1>Learn Cryto</h1>
-          <img src="images/crypto.png" alt="Aprende Cryto" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
-            alias, cum, nostrum omnis voluptates temporibus voluptas numquam
-            porro tempora magnam nesciunt quasi illum, quibusdam officia totam
-            neque saepe vero perferendis.
-          </p>
+    <main class="m-direct">
+        <h1 class="title-page">Directory</h1>
+  
+        <div class="filter-buttons">
+          <button class="list-button">&#9868;</button>
+          <button class="grid-button">&#8862;</button>
         </div>
-        <div>
-          <h1>Charity</h1>
-          <img src="images/caridad.jpg" alt="Ven y dona caridad" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            veniam nostrum dolores laboriosam necessitatibus nemo, atque
-            mollitia obcaecati esse ipsum id saepe eius, deserunt aut magni
-            itaque. Iure, laudantium dolorum.
-          </p>
-        </div>
-      </section>
-    </main>
+        <ol class="directoryView grid-view-filter">
+          <div class="directory"></div>
+        </ol>
+  
+        <section class="contact-section">
+          <div class="contact">
+            <div class="contact-group">
+              <img
+                class="contact-icons"
+                src="images/map.png"
+                alt="location-icon"
+              />
+              <p>Totlixco 477, Puebla 170401</p>
+            </div>
+            <div class="contact-group">
+              <img
+                class="contact-icons"
+                src="images/001-tablet.png"
+                alt="telephone-icon"
+              />
+              <p>1800 - (222)- 983 -665593</p>
+            </div>
+            <div class="contact-group">
+              <img
+                class="contact-icons"
+                src="images/emailUs.png"
+                alt="email-icon"
+              />
+              <p>discover-puebla@info.com</p>
+            </div>
+            <div class="contact-group">
+              <a href="https://www.facebook.com/">
+                <img
+                  id="facebook"
+                  src="images/facebookIconCopy.png"
+                  alt="Facebook Icon"
+              /></a>
+              <a href="https://www.instagram.com/">
+                <img
+                  id="instagram"
+                  src="images/instagram.png"
+                  alt="Instagram Icon"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
     <footer class="footergrid">
       <div class="footer1">
         <img
@@ -147,5 +139,7 @@
         <span id="lastModified">Last</span>
       </p>
     </footer>
+    <script src="js/directory.js"></script>
+    <script src="js/script copy.js"></script>
   </body>
 </html>
