@@ -2,11 +2,11 @@
     "business":[
     {
         "logo": "images/comercioLogo.png",
-        "businessName": "Cámara de Comercio De Quito",
+        "businessName": "Cámara de Comercio De Puebla",
         "info": "Business Networking and Education.",
         "adress":"Matriz: Av. Amazonas y República, Edificio Las Cámaras ",
-        "phone": "(02) 976 500",
-        "email": "ccq@lacamaradequito.coms",
+        "phone": "(735) 976 500",
+        "email": "ccq@lacamaradepuebla.com",
         "websites":"https://ccq.ec/"
     },
    {
@@ -20,9 +20,9 @@
     },
     {
         "logo": "images/mitadLogo.jpg",
-        "businessName": "Mital Del Mundo",
-        "info": "The most visited tourist attraction in Quito.",
-        "adress":"Av. Manuel Cordova Galarza Km13 1/2 Quito",
+        "businessName": "Gigantes y paseo",
+        "info": "The most visited tourist attraction in Puebla.",
+        "adress":"Av. Manuel Cordova Galarza Km13 1/2 Puebla",
         "phone": "593(02)239-4803",
         "email": "info@mitaddelmundo.com",
         "websites":"http://www.mitaddelmundo.com"
