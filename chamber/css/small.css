@@ -364,3 +364,137 @@ nav ul.open {
 img#instagram { 
   max-width: 2rem;
 }
+
+/*CITY*/
+
+/*JOIN US*/ /*FORM AND THANK YOU PAGE*/
+
+.title-page {
+  font-family: "Playfair Display", serif;
+  color: #043869;
+  margin-top: 5em;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-top: 4em;
+  padding: 10px;
+  font-family: "EB Garamond", serif;
+  color: #fffffa;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+fieldset {
+  margin: 0 auto;
+  max-width: 100%;
+  border-style: none;
+}
+
+.form-input {
+  padding: 10px;
+  border: 3px solid;
+  border-color: #043869;
+  padding: 10px;
+  margin-top: 1em;
+  font-family: "EB Garamond", serif;
+  position: relative;
+  background-image: linear-gradient(135deg, #003399 20%, #011e60 80%);
+  box-shadow: 8px 8px 4px #7e9dcf;
+  max-width: 100%;
+}
+
+input,
+#membership {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  padding: 12px;
+  margin-top: 0.5em;
+  background-color: #fafafa;
+}
+input:hover {
+  background-color: #8ab4f7;
+  color: #011e60;
+}
+
+#comment {
+  width: 100%;
+  height: 200px;
+  font-family: "EB Garamond", serif;
+}
+
+.button-join {
+  float: right;
+  width: 85px;
+  height: 35px;
+  font-size: 18px;
+
+  color: #fffffa;
+  background-color: #df1620;
+  margin: auto 0;
+  margin-top: 1em;
+  padding: 5px;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  border: none;
+  box-shadow: 4px 4px 4px #7e9dcf;
+}
+
+.button-join:hover {
+  background-color: #011e60;
+  color: #fafafa;
+  font-family: "EB Garamond", serif;
+}
+
+.thank-you {
+  padding: 20px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  color: #04142d;
+  width: 100%;
+  height: 200px;
+}
+.thank-you h1 {
+  margin-top: -1em;
+  color: #df1620;
+}
+
+.levels {
+  margin: 0 auto;
+  color: #043869;
+  width: 400px;
+  max-width: 100%;
+
+  box-shadow: 8px 8px 4px #7e9dcf;
+  background-image: linear-gradient(135deg, #003399 60%, #011e60 80%);
+
+  width: 400px;
+  border-left: 13px double #df1620;
+  border-right: 13px double #df1620;
+  background-color: #fafafa;
+  padding-top: -15px;
+}
+
+.levels h3 {
+  padding: 10px;
+  color: #df1620;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: -0.5em;
+}
+
+.non-profit,
+.silver,
+.bronze,
+.gold {
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+.levels h2 {
+  text-align: center;
+}
