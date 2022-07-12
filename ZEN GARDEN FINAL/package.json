@@ -1,0 +1,21 @@
+{
+  "name": "zen-garden-grp5",
+  "version": "0.1.0",
+  "description": "A simple website built with Node, Express and Pug",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon --watch src -e css server.js",
+    "watch-sass": "node-sass -w src/scss -o src"
+  },
+  "author": "tlarsen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
